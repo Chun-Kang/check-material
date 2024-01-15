@@ -4,11 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --base-href https://chun-kang.github.io/check-material/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:check-material": "node dist/check-material/server/server.mjs",
-    "deploy": "gh-pages -d src"
+    "deploy": "npx angular-cli-ghpages --dir=dist/check-material/browser"
   },
   "private": true,
   "dependencies": {
