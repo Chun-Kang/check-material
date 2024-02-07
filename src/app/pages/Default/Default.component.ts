@@ -7,8 +7,8 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   imports: [
     CommonModule,
   ],
-  template: `<p>Default works!</p>`,
-  styleUrl: './Default.component.scss',
+  templateUrl: './default.component.html',
+  styleUrl: './default.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class DefaultComponent { }
